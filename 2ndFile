@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>本格？2つ目のページ</title>
+<style type="text/css">
+body{
+width : 90%;
+background : aliceblue;
+}
+h1{
+border : inset pink 5px
+}
+</style>
+</head>
+<body>
+<h1>2つ目のページ</h1>
+<p>
+ここはp要素だよ頑張れれれｗｗｗｗ
+</p>
+</body>
+</html>
