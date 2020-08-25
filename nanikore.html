@@ -5,23 +5,45 @@
 <meta charset="utf-8">
 <title>特茶だよ2</title>
 <style type="text/css">
+ .wa{
+ display : grid;
+  width : 95vw;
+  height : 95vh;
+  grid-template-areas : "a" "b" "c";
+  grid-template-rows :6em 1fr 4em;
+ }
+ header{
+  grid-area : a;
+  background : lavenderblush;
+  border : inset pink 5px;
+ }
+section{
+ grid-area : b;
+ margin : 1em
+ }
+ footer{
+  grid-area : c;
+  padding : 0.5em;
+  background : skyblue;
+ }
 body{
- mrgin : 2em;
  background : aliceblue;
+ text-indent : 0.5em;
 }
-h1{
- border : inset pink 5px;
- background : lavenderblush;
-}
-a{
- text-style : italic;
-}
+
 </style>
 </head>
-<body>
+<body><div class ="wa">
+ <header>
 <h1>特茶だよ</h1>
+ </header>
 <big><big>
+ <section>
  <font color ="violet">ぶどう</font>ーー！みんなーー、見えてるーー？？
 </big></big>
+ </section>
+ <footer><address>
+  2020/8/26
+  </address></footer>
 </body>
 </html>
