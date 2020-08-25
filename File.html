@@ -4,6 +4,21 @@
 <meta charset="utf-8">
 <title>特茶だよ</title>
 <style type="text/css">
+ .wa{
+ display : grid;
+  width : 100vw;
+  height : 100vh;
+  grid-template-areas : "a" "b";
+  grid-template-rows : 1fr 4em;
+ }
+.main{
+ grid-area : a;
+ padding : 2em;
+ }
+ footer{
+  grid-area : b;
+  padding : 2em
+ }
 body{
  mrgin : 2em;
  background : aliceblue;
@@ -18,15 +33,16 @@ a{
 </style>
 
 </head>
-<body><><>
+<body>
+ <div class="main">
 <h1>特茶だよ</h1>
 <p>ノリでこんなものを作ってしまったｗｗ<br>
  意外と簡単にできたーー
 </p>
 <a href="nanikore.html">なにこれ？？？</a> 
+</div>
 <footer><address>
 2020/8/26
 </address></footer>
-
 </body>
 </html>
