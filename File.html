@@ -8,41 +8,43 @@
  display : grid;
   width : 100vw;
   height : 100vh;
-  grid-template-areas : "a" "b";
-  grid-template-rows : 1fr 4em;
+  grid-template-areas : "a" "b" "c";
+  grid-template-rows :6em 1fr 4em;
  }
-.main{
- grid-area : a;
+ header{
+  grid-area : a;
+  margin : 2em;
+  padding : 2em;
+  background : pink
+ }
+section{
+ grid-area : b;
  padding : 2em;
  }
  footer{
-  grid-area : b;
+  grid-area : c;
   padding : 2em
  }
 body{
  mrgin : 2em;
  background : aliceblue;
 }
-h1{
- border : inset pink 5px;
- background : lavenderblush;
-}
-a{
- text-style : italic;
-}
+
 </style>
 
 </head>
-<body>
- <div class="main">
+<body><div class ="wa">
+<header>
 <h1>特茶だよ</h1>
+ </header>
+<section>
 <p>ノリでこんなものを作ってしまったｗｗ<br>
  意外と簡単にできたーー
 </p>
 <a href="nanikore.html">なにこれ？？？</a> 
-</div>
+</section>
 <footer><address>
 2020/8/26
 </address></footer>
-</body>
+ </div></body>
 </html>
